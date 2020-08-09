@@ -1,6 +1,5 @@
 <?php
 namespace execut\pagesSeo\migrations;
-use execut\seo\FieldsAttacher;
 use execut\yii\migration\Migration;
 use execut\yii\migration\Inverter;
 

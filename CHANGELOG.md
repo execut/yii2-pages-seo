@@ -7,6 +7,7 @@ execut\moduleTemplate
 0.1.1
 -----
 - Added modules to composer.json
+- Fixed a bug with unstable Yii version
 
 0.1.0
 ---------------------
