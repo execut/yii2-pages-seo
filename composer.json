@@ -16,9 +16,10 @@
     }
   ],
   "minimum-stability": "stable",
+  "prefer-stable": true,
   "require": {
     "php": "^7.4",
-    "yiisoft/yii2": "@dev"
+    "yiisoft/yii2": "2.*"
   },
   "require-dev": {
     "codeception/codeception": "^4.0",
@@ -31,5 +32,16 @@
     "psr-4": {
       "execut\\pagesSeo\\": "src"
     }
-  }
+  },
+  "config": {
+    "fxp-asset": {
+      "enabled": false
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
 }
