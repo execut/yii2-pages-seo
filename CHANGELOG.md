@@ -1,4 +1,4 @@
-execut\moduleTemplate
+yii2-pages-seo integration module
 ==============================================
 
 0.2.0 dev
