@@ -1,14 +1,14 @@
 {
-  "name": "execut/yii2-module-template",
+  "name": "execut/yii2-pages-seo",
   "description": "A template for module based on eXeCUT Yii2 CRUD",
   "keywords": ["yii2 crud", "yii2 module template"],
-  "homepage": "https://github.com/execut/yii2-module-template",
+  "homepage": "https://github.com/execut/yii2-pages-seo",
   "type": "yii2-extension",
   "license": "Apache-2.0",
   "support": {
-    "issues": "https://github.com/execut/yii2-module-template/issues?state=open",
-    "wiki": "https://github.com/execut/yii2-module-template/wiki",
-    "source": "https://github.com/execut/yii2-module-template"
+    "issues": "https://github.com/execut/yii2-pages-seo/issues?state=open",
+    "wiki": "https://github.com/execut/yii2-pages-seo/wiki",
+    "source": "https://github.com/execut/yii2-pages-seo"
   },
   "authors": [
     {
@@ -29,7 +29,7 @@
   },
   "autoload": {
     "psr-4": {
-      "execut\\moduleTemplate\\": "src"
+      "execut\\pagesSeo\\": "src"
     }
   }
 }

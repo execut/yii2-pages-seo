@@ -3,13 +3,9 @@ Template for yii2 module based on yii2-crud-fields
 
 For license information check the [LICENSE](LICENSE.md)-file.
 
-English documentation is at [docs/guide/README.md](https://github.com/execut/yii2-module-template/blob/master/docs/guide/README.md).
-
-Русская документация здесь [docs/guide-ru/README.md](https://github.com/execut/yii2-module-template/blob/master/docs/guide-ru/README.md).
-
-[![Latest Stable Version](https://poser.pugx.org/execut/yii2-module-template/v/stable.png)](https://packagist.org/packages/execut/yii2-module-template)
-[![Total Downloads](https://poser.pugx.org/execut/yii2-module-template/downloads.png)](https://packagist.org/packages/execut/yii2-module-template)
-[![Build Status](https://travis-ci.com/execut/yii2-module-template.svg?branch=master)](https://travis-ci.com/execut/yii2-module-template)
+[![Latest Stable Version](https://poser.pugx.org/execut/yii2-pages-seo/v/stable.png)](https://packagist.org/packages/execut/yii2-pages-seo)
+[![Total Downloads](https://poser.pugx.org/execut/yii2-pages-seo/downloads.png)](https://packagist.org/packages/execut/yii2-pages-seo)
+[![Build Status](https://travis-ci.com/execut/yii2-pages-seo.svg?branch=master)](https://travis-ci.com/execut/yii2-pages-seo)
 
 
 Installation
@@ -20,13 +16,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require execut/yii2-module-template
+php composer.phar require execut/yii2-pages-seo
 ```
 
 or add
 
 ```
-"execut/yii2-module-template": "dev-master"
+"execut/yii2-pages-seo": "dev-master"
 ```
 
 to the require section of your `composer.json` file.
@@ -34,6 +30,11 @@ to the require section of your `composer.json` file.
 Usage
 ----
 
-For more details please refer to the documentation [docs/guide/README.md](https://github.com/execut/yii2-module-template/blob/master/docs/guide/README.md).
-
-Для более подробной информации обращайтесь к документации [docs/guide-ru/README.md](https://github.com/execut/yii2-module-template/blob/master/docs/guide-ru/README.md).
+Add bootstrap to config file:
+```php
+return [
+    'bootstrap' => [
+        'pagesSeo' => \execut\pagesSeo\bootstrap\Common::class,
+    ]
+];
+```
