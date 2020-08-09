@@ -18,7 +18,9 @@
   "minimum-stability": "stable",
   "require": {
     "php": "^7.4",
-    "yiisoft/yii2": "@dev"
+    "yiisoft/yii2": "@dev",
+    "execut/yii2-pages": "@dev",
+    "execut/yii2-seo": "@dev"
   },
   "require-dev": {
     "codeception/codeception": "^4.0",
